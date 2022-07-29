@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header{
+display: flex;
+justify-content: space-between;
+justify-content: space-around;
+}
+body{
+    background-image: url("https://res.cloudinary.com/dg3gyk0gu/image/upload/v1627589166/egghead-next-ebombs/building-a-crud-app-with-react-and-local-storage/s_119F830E2B2EC9A0AA0750107BF62E2556E1A1AEC8863BD10D28247C142721B4_1624628623546_preloader_of_task_manager_app.jpg");
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+  }
+
+.container{
+    background-color: aqua;
+    padding: 30px;
+    margin: 30px auto;
+
+    
+}
+.task .taksname{
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+.delIcon {
+    color: red;
+    cursor: pointer;
+  }
+.tasktable{
+    background-color: rgb(232, 240, 247);
+max-width: 70%;
+border-radius: 5px;
+display: flex;
+justify-content: space-between;
+
+}
+.task::-webkit-scrollbar {
+    display: none;
+  }
+  .edit {
+    color: blue;
+    cursor: pointer;
+  }
+
+.task{
+    
+    background: #f4f4f4;
+    margin: 5px auto;
+    max-width: 100%;
+    padding: 10px 20px;
+    /* cursor: pointer; */
+    border-radius: 5px;
+    overflow: scroll;
+    display: flex;
+    justify-content: space-between;
+
+}
+.task span{
+    font-weight:bold;
+} 
+
+
+.form{
+
+    margin: 20px 0;
+
+}
+.tast-text{
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.tast-date{
+    padding: 5px;
+    background-color: #ffffff;   
+}
+.tast-text label{
+    display: block;
+    padding: 5px;
+}
+
+.tast-text input{
+    display: block;
+
+    width:92%;
+    margin: 5px;
+    padding: 5px 10px;
+}
+.tast-date label{
+    display: block;
+    padding: 5px;
+}
+.tast-date input{
+
+width:92%;
+margin: 5px;
+padding: 5px 10px;
+}
+
+.form .btn{
+    background-color: black;
+    color: #f4f4f4;
+    width:100%;
+}
+.form .btn:focus {
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
